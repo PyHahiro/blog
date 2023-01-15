@@ -1,5 +1,7 @@
+@import '../../scss-variables.scss';
+
 .post-container {
-    background: #e2e8d5;
+    background: $secondary;
     display: flex;
     flex-direction: column;
     padding: 3%;

@@ -1,5 +1,7 @@
+@import '../../scss-variables.scss';
+
 body {
-    background-color: #0e9d57;
+    background-color: $primary;
 }
 .posts-container {
     display: flex;

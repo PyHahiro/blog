@@ -1,14 +1,13 @@
 import React from "react";
-import "./App.css";
+import "./App.scss";
   
+import Header from "./components/header/Header"
 import Posts from "./components/Posts/Posts";
   
 const App = () => {
   return (
-    <div className="main-container">
-      <h1 className="main-heading">
-        Blog App using React Js 
-      </h1>
+    <div>
+      <Header />
       <Posts />
     </div>
   );

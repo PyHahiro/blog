@@ -1,0 +1,16 @@
+@import '../../scss-variables.scss';
+
+.menu {
+
+    &__center, &__left, &__right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__logo {
+        width: $huge;
+        height: $huge;
+        margin-right: $small;
+    }
+}
